@@ -1,0 +1,15 @@
+.drone {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+@media screen and (min-width:768px) {
+  .drone {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .drone {
+    max-width: 100%;
+  }
+}
